@@ -19,7 +19,7 @@ export const smartWalletConfig = smartWallet(localWallet(), {
   gasless: true,
 });
 
-export const editionDropAddress = "Oxb9e2b6C6ce60d074b96DD19498dF2493f9A625B1";
+export const editionDropAddress = "0xb9e2b6C6ce60d074b96DD19498dF2493f9A625B1";
 export const editionDropTokenId = "0";
 
 const container = document.getElementById("root");
