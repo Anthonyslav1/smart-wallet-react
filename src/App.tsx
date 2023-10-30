@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="title">
             <span className="gradient-text-0">
               <a
-                href="https://thirdweb.com/"
+                href="https://github.com/anthonyslav1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -24,11 +24,11 @@ export default function Home() {
           </h1>
           <p>
             Signless + gasless UX using{" "}
-            <a href="https://portal.thirdweb.com/wallet/local-wallet">
+            <a href="https://github.com/anthonyslav1">
               LocalWallet
             </a>{" "}
             and{" "}
-            <a href="https://portal.thirdweb.com/wallet/smart-wallet">
+            <a href="https://github.com/anthonyslav1">
               SmartWallet
             </a>
           </p>
@@ -51,22 +51,15 @@ export default function Home() {
         <ConnectUI />
         <hr className="divider" />
         <p className="description">
-          Then use the React SDK to execute transactions.
+          
           <br />
           No gas cost or signature required!
         </p>
         <NFTComponent />
         <hr className="divider" />
-        <p className="description">
-          You can also add temporary session keys to your smart wallet
-        </p>
-        <AddSigner />
-        <hr className="divider" />
-        <p className="description">
-          You can also add Metamask with <code className="code">{"addAdmin()"}</code> as another admin to your smart wallet
-          </p>
-        <AddMetamask />
-        <hr className="divider" />
+        
+        
+        
       </div>
     </main>
   );

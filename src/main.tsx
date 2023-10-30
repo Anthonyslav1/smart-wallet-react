@@ -7,19 +7,19 @@ import {
   smartWallet,
 } from "@thirdweb-dev/react";
 import "./styles/globals.css";
-import { Goerli } from "@thirdweb-dev/chains";
+import { Sepolia } from "@thirdweb-dev/chains";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
 // You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
-export const activeChain = Goerli;
+export const activeChain = Sepolia;
 
 export const smartWalletConfig = smartWallet(localWallet(), {
-  factoryAddress: "0x8e0ebeb0d60dfc644e145790e1fac9b01c9a82cd",
+  factoryAddress: "0x067a346255F41c6ba8e40A3eA235768b0eAB3936",
   gasless: true,
 });
 
-export const editionDropAddress = "0xb9e2b6C6ce60d074b96DD19498dF2493f9A625B1";
+export const editionDropAddress = "0x18960285AEFB2a9b57A790B08411204Ae42D48B5";
 export const editionDropTokenId = "0";
 
 const container = document.getElementById("root");
